@@ -19,7 +19,7 @@ Funcionalidade: Aplicação de cupons de desconto
       | BEMVINDO10     |
       | BemVindo10     |
       |  BEMVINDO10    |
-      | BEMVINDO10     |
+      |  bemvindo10    |
 
   Cenário: Rejeitar cupom inexistente
     Quando aplica o cupom "CUPOMINVALIDO"
