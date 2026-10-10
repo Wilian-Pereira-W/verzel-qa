@@ -1,14 +1,24 @@
 {
-  "name": "verzel",
+  "name": "verzel-qa",
   "version": "1.0.0",
-  "description": "",
+  "description": "Desafio Técnico de QA - Verzel Store - Testes manuais, cenários Gherkin e automação E2E com Playwright",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "report": "npx playwright show-report"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Wilian-Pereira-W/verzel-qa.git"
   },
-  "keywords": [],
+  "keywords": [
+    "qa",
+    "playwright",
+    "e2e",
+    "gherkin",
+    "verzel"
+  ],
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Wilian-Pereira-W/verzel-qa/issues"
@@ -16,6 +26,6 @@
   "homepage": "https://github.com/Wilian-Pereira-W/verzel-qa#readme",
   "devDependencies": {
     "@playwright/test": "^1.64.0",
-    "@types/node": "^26.6.5"
+    "@types/node": "^20.11.0"
   }
 }
