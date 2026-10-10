@@ -27,6 +27,16 @@ Depois, entre na pasta do projeto:
 cd verzel-qa
 ```
 
+## Abrir no VS Code
+
+Com o Visual Studio Code instalado e o comando `code` disponível no terminal, abra a pasta do projeto com:
+
+```bash
+code .
+```
+
+Para abrir o terminal integrado do VS Code, pressione `Ctrl+J` (no macOS, `Cmd+J`) ou use **Terminal > New Terminal**.
+
 ## Instalar dependências
 
 ```bash
